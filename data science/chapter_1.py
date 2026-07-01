@@ -51,3 +51,15 @@ what if a node is a network replecting a social media platform and the relations
 there are many ways to represent and analyze relationships in a graph, such as using adjacency lists or matrices, and applying algorithms to find shortest paths, clusters, or communities within the network.
 """
 
+def friends_of_friends(index):
+    friends = data[index]["relationship"]
+    friends_of_friends_set = set()
+    
+    for friend in friends:
+        friends_of_friends_set.update(data[friend]["relationship"])
+    
+    return list(friends_of_friends_set)
+
+for i in range(len(data)):
+    fof = friends_of_friends(i)
+    print(f"Friends of friends for {data[i]['name']} (ID: {data[i]['id']}): {fof}") 
