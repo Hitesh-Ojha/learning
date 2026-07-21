@@ -1,6 +1,6 @@
 # Learning Journey — Data Analytics, ML Foundations & DSA
 
-This repository documents my structured learning path toward a career in full-stack development with data analytics/ML as a differentiator. It combines two parallel tracks: **data analytics fundamentals** and **core problem-solving practice** through DSA.
+This repository documents my structured learning path in data analytics/ML foundations and core problem-solving through DSA.
 
 The goal is to build a solid base in Python, NumPy, Pandas, and data visualization — then move into EDA projects, BI tools (Excel, Power BI), and SQL — while independently strengthening algorithmic thinking through consistent DSA practice.
 
@@ -19,8 +19,14 @@ Covers the fundamentals of numerical computing with NumPy:
 ### Pandas
 Foundational data manipulation with Pandas, building toward real-world data cleaning and analysis workflows.
 
-### Matplotlib *(started)*
-Beginning data visualization fundamentals — plotting basics or foundational chart types are underway. This section will be filled in as it progresses.
+### Matplotlib
+Data visualization fundamentals — plotting basics, chart types, and customization.
+
+### Seaborn
+Statistical data visualization built on Matplotlib — heatmaps, distribution plots, categorical plots, and pair plots.
+
+### Math *(in progress)*
+Linear algebra, probability, and statistics fundamentals for ML.
 
 ### Upcoming
 - Exploratory Data Analysis (EDA)
