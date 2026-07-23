@@ -1,4 +1,4 @@
-# Learning Journey — Data Analytics, ML Foundations & DSA
+# Learning Journey — Data Science, ML Foundations & DSA
 
 This repository documents my structured learning path in data analytics/ML foundations and core problem-solving through DSA.
 
